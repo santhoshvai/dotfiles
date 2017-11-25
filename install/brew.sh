@@ -25,14 +25,10 @@ apps=(
   git-extras
   gnu-sed --with-default-names
   grep --with-default-names
-  hub
-  httpie
   imagemagick
-  jq
   lynx
   mackup
   nano
-  pandoc
   peco
   psgrep
   python
@@ -42,6 +38,23 @@ apps=(
   unar
   wget
   wifi-password
+  autoconf
+  ideviceinstaller
+  openssl
+  ios-deploy
+  lame
+  carthage
+  cocoapods
+  libplist
+  protobuf
+  dart
+  ruby
+  ffmpeg
+  watchman
+  libusb
+  libxml2
+  libyaml
+  gradle
 )
 
 brew install "${apps[@]}"
@@ -50,3 +63,4 @@ export DOTFILES_BREW_PREFIX_COREUTILS=`brew --prefix coreutils`
 set-config "DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_BREW_PREFIX_COREUTILS" "$DOTFILES_CACHE"
 
 ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
+

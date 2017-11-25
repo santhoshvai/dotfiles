@@ -3,12 +3,14 @@ if ! is-macos -o ! is-executable brew; then
   return
 fi
 
-brew install gpg2
+#### Gem not needed for my setup
 
-\curl -sSL https://get.rvm.io | bash -s stable
+# brew install gpg2
 
-rvm install 2.3
-rvm use 2.3 --default
+# \curl -sSL https://get.rvm.io | bash -s stable
 
-gem install lunchy
-gem install pygmentize
+# rvm install 2.3
+# rvm use 2.3 --default
+
+# gem install lunchy
+# gem install pygmentize

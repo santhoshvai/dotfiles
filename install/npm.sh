@@ -14,17 +14,15 @@ nvm install 6
 # Globally install with npm
 
 packages=(
+  create-react-app
   get-port-cli
-  gtop
   historie
-  nodemon
   npm
-  release-it
-  spot
-  superstatic
-  svgo
-  tldr
-  underscore-cli
+  gulp-cli
+  react-devtools
+  react-native-cli
+  rnpm
+  yarn
 )
 
 npm install -g "${packages[@]}"
