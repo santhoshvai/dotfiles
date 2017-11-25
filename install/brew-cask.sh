@@ -15,7 +15,6 @@ apps=(
   vlc
   firefox
   flux
-  google-drive
   hammerspoon
   slack
   sourcetree
